@@ -8,9 +8,12 @@
 import Foundation
 import UIKit
 import SnapKit
+
 class LoginController: UIViewController, ConstraintRelatableTarget {
     // MARK: - properties
     //스크롤뷰 감싸기
+    
+    public static let shared: LoginController = LoginController()
     
     private let subtitleLabel: UILabel = {
         let label = UILabel()
@@ -74,7 +77,7 @@ class LoginController: UIViewController, ConstraintRelatableTarget {
     private let loginButton = UIButton(type: .system).then {
         $0.titleLabel?.font = UIFont(name: "Pretendard-Bold", size: 20)
         $0.isEnabled = true
-        $0.addTarget(self, action: #selector(pushToHome), for: .touchUpInside)
+        $0.addTarget(self, action: #selector(pushToLogin), for: .touchUpInside)
         $0.setTitle("로그인", for: .normal)
         $0.backgroundColor = UIColor(red: 0.212, green: 0.75, blue: 0.98, alpha: 1)
         $0.layer.cornerRadius = 12
@@ -111,6 +114,7 @@ class LoginController: UIViewController, ConstraintRelatableTarget {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
         overrideUserInterfaceStyle = .light
         let singleTapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(myTapMethod))
         singleTapGestureRecognizer.numberOfTapsRequired = 1
@@ -227,15 +231,39 @@ class LoginController: UIViewController, ConstraintRelatableTarget {
     }
     
     // MARK: - Actions
-    @objc func pushToHome() {
-        self.navigationController?.pushViewController(MainTabController(), animated: true)
-//        let url = "metaDNA:"
-//        if let openApp = URL(string: url), UIApplication.shared.canOpenURL(openApp) {
-//            UIApplication.shared.openURL(openApp)
-//        } else {
-//            print(#fileID, #function, #line, "-앱을 열지 못함")
-//        }
+    
+    @objc func pushToLogin() {
+        showPopUpTwoButton(title: "결제", message: "로그인을 위해서 iD•One\n인증을 진행하시겠습니까?", rightActionCompletion: confirm)
     }
+    
+    func confirm() {
+        print(#fileID, #function, #line, "-확인 버튼 누름")
+        let url = "metaDNA://https://devapi.metadna.kr/api/qr/scan/HOSPITAL"
+        if let openApp = URL(string: url), UIApplication.shared.canOpenURL(openApp) {
+            UIApplication.shared.openURL(openApp)
+        } else {
+            print(#fileID, #function, #line, "-앱을 열지 못함")
+        }
+    }
+    
+    func pushToHomeDeeplink() {
+            print("test")
+            self.navigationController?.pushViewController(MainTabController(), animated: true)
+            print("test22")
+        
+    }
+    
+    
+    @objc func pushToHome() {
+//        self.navigationController?.pushViewController(MainTabController(), animated: true)
+        let url = "metaDNA://"
+        if let openApp = URL(string: url), UIApplication.shared.canOpenURL(openApp) {
+            UIApplication.shared.openURL(openApp)
+        } else {
+            print(#fileID, #function, #line, "-앱을 열지 못함")
+        }
+    }
+    
     
     @objc func keyboardUp(notification:NSNotification) {
         if let keyboardFrame: NSValue = notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue {
@@ -257,7 +285,6 @@ class LoginController: UIViewController, ConstraintRelatableTarget {
 extension LoginController: UITextViewDelegate {
     
 }
-
 #if DEBUG
 import SwiftUI
 

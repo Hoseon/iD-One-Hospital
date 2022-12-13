@@ -14,18 +14,18 @@ import BonMot
 class DoctorCardSelect: UIView {
     
     private let uiView = UIView().then {
-        $0.layer.backgroundColor = UIColor.systemYellow.cgColor
+        $0.layer.backgroundColor = UIColor.white.cgColor
         $0.layer.cornerRadius = 16
     }
     
     private let doctorImage = UIImageView().then {
         $0.contentMode = .scaleAspectFit
-        $0.image = #imageLiteral(resourceName: "doctorkim")
+        $0.image = #imageLiteral(resourceName: "doctorKim_1")
     }
     
     private var doctorName = UILabel().then {
         $0.font = UIFont(name: "Pretendard-Bold", size: 24)
-        $0.text = "임유진 의사"
+        $0.text = "김민지 의사"
     }
     
     private let hospitalName = UILabel().then {
@@ -45,40 +45,69 @@ class DoctorCardSelect: UIView {
         $0.font = UIFont(name: "Pretendard-Bold", size: 14)
     }
     
+    private var jinryoSigan = UILabel().then {
+        $0.textColor = UIColor(rgb: 0x5C5C5C)
+        $0.text = "진료시간"
+        $0.font = UIFont(name: "Pretendard-Bold", size: 14)
+    }
+    
+    private var howJinryo = UILabel().then {
+        $0.textColor = UIColor(rgb: 0x5C5C5C)
+        $0.text = "진료방법"
+        $0.font = UIFont(name: "Pretendard-Bold", size: 14)
+    }
+    
+    private var jinryoTime = UILabel().then {
+        $0.textColor = UIColor(rgb: 0x5C5C5C)
+        $0.text = "09:00~12:00"
+        $0.font = UIFont(name: "Pretendard-Regular", size: 14)
+    }
+    
+    private var descJinryo = UILabel().then {
+        $0.textColor = UIColor(rgb: 0x5C5C5C)
+        $0.text = "음성진료"
+        $0.font = UIFont(name: "Pretendard-Regular", size: 14)
+    }
+    
+    // MARK: - LifeCycle
     override init(frame: CGRect) {
         super.init(frame: frame)
+        let gesture = UITapGestureRecognizer(target: self, action: #selector(handleTap(_:)))
+        addGestureRecognizer(gesture)
         addSubview(uiView)
         uiView.snp.makeConstraints {
-            $0.top.equalTo(self.safeAreaLayoutGuide).offset(20)
+            $0.top.equalToSuperview()
             $0.centerX.equalToSuperview()
-            $0.horizontalEdges.equalToSuperview().inset(20)
+            $0.width.equalToSuperview()
             $0.height.equalTo(148)
         }
         
         uiView.addSubview(doctorImage)
         doctorImage.snp.makeConstraints {
+            $0.width.equalTo(88)
+            $0.height.equalTo(88)
             $0.top.equalToSuperview().offset(20)
             $0.left.equalToSuperview().offset(16)
         }
-        
+
         uiView.addSubview(doctorName)
         doctorName.snp.makeConstraints {
             $0.top.equalTo(doctorImage.snp.top)
             $0.left.equalTo(doctorImage.snp.right).offset(12)
         }
-        
+
         uiView.addSubview(hospitalName)
         hospitalName.snp.makeConstraints {
-            $0.top.equalTo(doctorName.snp.bottom)
+            $0.top.equalTo(doctorName.snp.bottom).offset(5)
             $0.left.equalTo(doctorName.snp.left)
         }
-        
+
         uiViewStatus.addSubview(status)
         status.snp.makeConstraints {
             $0.centerX.equalToSuperview()
             $0.centerY.equalToSuperview()
         }
-        
+
         uiView.addSubview(uiViewStatus)
         uiViewStatus.snp.makeConstraints {
             $0.width.equalTo(72)
@@ -86,6 +115,42 @@ class DoctorCardSelect: UIView {
             $0.top.equalTo(doctorName.snp.top)
             $0.right.equalToSuperview().inset(16)
         }
+
+        uiView.addSubview(jinryoSigan)
+        jinryoSigan.snp.makeConstraints {
+            $0.width.equalTo(58)
+            $0.height.equalTo(21)
+            $0.top.equalTo(hospitalName.snp.bottom).offset(8)
+            $0.left.equalTo(hospitalName.snp.left)
+        }
+
+        uiView.addSubview(jinryoTime)
+        jinryoTime.snp.makeConstraints {
+            $0.width.equalTo(90)
+            $0.height.equalTo(21)
+            $0.centerY.equalTo(jinryoSigan.snp.centerY)
+            $0.left.equalTo(jinryoSigan.snp.right)
+        }
+
+        uiView.addSubview(howJinryo)
+        howJinryo.snp.makeConstraints {
+            $0.width.equalTo(58)
+            $0.height.equalTo(21)
+            $0.top.equalTo(jinryoSigan.snp.bottom).offset(1)
+            $0.left.equalTo(jinryoSigan.snp.left)
+        }
+
+
+        uiView.addSubview(descJinryo)
+        descJinryo.snp.makeConstraints {
+            $0.width.equalTo(90)
+            $0.height.equalTo(21)
+            $0.centerY.equalTo(howJinryo.snp.centerY)
+            $0.left.equalTo(howJinryo.snp.right)
+        }
+
+        
+        
     }
     
     required init?(coder: NSCoder) {
@@ -96,10 +161,14 @@ class DoctorCardSelect: UIView {
         self.init()
         self.doctorName.text = docteName
         self.status.text = status
+        
+        
     }
     
-    
-    
+    // MARK: - Action
+    @objc func handleTap(_ sender: UITapGestureRecognizer) {
+        print("tap")
+    }
 }
 
 #if DEBUG

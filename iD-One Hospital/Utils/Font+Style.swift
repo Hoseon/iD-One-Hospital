@@ -37,6 +37,10 @@ let bold16Style = StringStyle(
     .font(UIFont.Pretendard(.bold, size: 16))
 )
 
+let bold14Style = StringStyle(
+    .font(UIFont.Pretendard(.bold, size: 14))
+)
+
 let regular22Style = StringStyle(
     .color(UIColor(red: 0.376, green: 0.376, blue: 0.376, alpha: 1)),
     .font(UIFont.Pretendard(.regular, size: 22)),

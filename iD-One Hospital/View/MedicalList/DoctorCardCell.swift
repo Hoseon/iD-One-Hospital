@@ -74,7 +74,7 @@ class DoctorCardCell: UIView {
 //        $0.numberOfLines = 0
         $0.font = UIFont(name: "Pretendard-Bold", size: 20)
         $0.textColor = .black
-        $0.text = "임유진 의사"
+        $0.text = "김민지 의사"
     }
     
     private let departLabel = UILabel().then {
@@ -137,12 +137,11 @@ class DoctorCardCell: UIView {
     // MARK: - LifeCycle
     override init(frame: CGRect) {
         super.init(frame: frame)
+        let gesture = UITapGestureRecognizer(target: self, action: #selector(handleTap(_:)))
+        addGestureRecognizer(gesture)
         
         self.backgroundColor = .white
         self.layer.cornerRadius = 16
-//        self.layer.borderWidth = 1
-//        self.layer.borderColor = UIColor.gray.cgColor
-        
         
         hStackView.addArrangedSubview(headerRequestTimeLabel)//신청시간
         hStackView.addArrangedSubview(headerTimeLabel)//09:10
@@ -250,6 +249,10 @@ class DoctorCardCell: UIView {
     @objc fileprivate func onButtonClicked(_ sender: UIButton) {
         print(#fileID, #function, #line, "-")
         onClicked?()
+    }
+    
+    @objc func handleTap(_ sender: UITapGestureRecognizer) {
+        print("tap")
     }
     
     

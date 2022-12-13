@@ -84,7 +84,6 @@ class RoomCell: UIView {
     @objc func onButtonClicked(_ sender: UIButton) {
         //delegate패턴을 잡으곳으로 return
         delegate?.didTapButton()
-        print(#fileID, #function, #line, "-")
         
     }
     

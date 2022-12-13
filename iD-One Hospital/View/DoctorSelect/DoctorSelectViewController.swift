@@ -25,6 +25,9 @@ class DoctorSelectViewController: DTPagerController {
         configureNavi()
         configureSegment()
         
+        view.isUserInteractionEnabled = true
+
+        
     }
     
     // MARK: - Helpers
@@ -64,10 +67,10 @@ class DoctorSelectViewController: DTPagerController {
         viewController4.title = "피부과"
 
         viewControllers = [viewController1, viewController2, viewController3, viewController4]
+        
         scrollIndicator.backgroundColor = UIColor(rgb: 0x4AC6FF)
         scrollIndicator.tintColor = .white
         scrollIndicator.layer.cornerRadius = scrollIndicator.frame.height / 2
-        
 
         setSelectedPageIndex(0, animated: true)
 
@@ -77,6 +80,7 @@ class DoctorSelectViewController: DTPagerController {
         pageSegmentedControl.layer.masksToBounds = false
         pageSegmentedControl.layer.shadowColor = UIColor(rgb: 0xE6E6E6).cgColor //언더라인색상
         pageSegmentedControl.layer.shadowOffset = CGSize(width: 0, height: 1) //언더라인두께
+        
     }
     
     @objc func backbutton() {

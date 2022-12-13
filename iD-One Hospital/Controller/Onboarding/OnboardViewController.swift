@@ -14,6 +14,8 @@ import AdvancedPageControl
 class OnboardViewController: UIViewController {
     // MARK: - Properties
     
+    let loginVC = LoginController.shared
+    
     var images = [
         "Img_Onboarding_01",
         "Img_Onboarding_02",
@@ -116,7 +118,7 @@ class OnboardViewController: UIViewController {
     
     // MARK: - Actions
     @objc func pushToLogin() {
-        let loginController = LoginController()
+        let loginController = self.loginVC
         navigationController?.pushViewController(loginController, animated: true)
         
     }

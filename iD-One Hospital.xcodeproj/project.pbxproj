@@ -7,23 +7,144 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DA401798291C8F3900DF4941 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA401797291C8F3900DF4941 /* AppDelegate.swift */; };
+		DA0EDD9029305AEE007E48B8 /* RoomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0EDD8F29305AEE007E48B8 /* RoomCell.swift */; };
+		DA0EDD9229308587007E48B8 /* UIButton+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0EDD9129308587007E48B8 /* UIButton+Ext.swift */; };
+		DA0EDD9529308BAD007E48B8 /* SelectClassController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0EDD9429308BAD007E48B8 /* SelectClassController.swift */; };
+		DA19110329482D9400CBFFC0 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA19110229482D9400CBFFC0 /* Launch Screen.storyboard */; };
+		DA1B6D8F2923363E00D21930 /* PermissionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1B6D8E2923363E00D21930 /* PermissionController.swift */; };
+		DA1B6D922923369B00D21930 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = DA1B6D912923369B00D21930 /* Then */; };
+		DA242205292D9588001CD3C1 /* DoctorCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA242204292D9588001CD3C1 /* DoctorCardCell.swift */; };
+		DA242208292E0397001CD3C1 /* MyPageTableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA242207292E0397001CD3C1 /* MyPageTableHeader.swift */; };
+		DA3368962941A90B00A62E1D /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3368952941A90B00A62E1D /* PaymentViewController.swift */; };
+		DA3368982941AC8B00A62E1D /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3368972941AC8B00A62E1D /* HeaderView.swift */; };
+		DA33689A2941B38B00A62E1D /* Payment+UIRadio.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3368992941B38B00A62E1D /* Payment+UIRadio.swift */; };
+		DA33689C2941B49100A62E1D /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA33689B2941B49100A62E1D /* RadioButton.swift */; };
+		DA33689F29421CCC00A62E1D /* PayCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA33689E29421CCC00A62E1D /* PayCompleteViewController.swift */; };
 		DA40179A291C8F3900DF4941 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA401799291C8F3900DF4941 /* SceneDelegate.swift */; };
 		DA40179C291C8F3900DF4941 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40179B291C8F3900DF4941 /* ViewController.swift */; };
-		DA40179F291C8F3900DF4941 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA40179D291C8F3900DF4941 /* Main.storyboard */; };
 		DA4017A1291C8F3A00DF4941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA4017A0291C8F3A00DF4941 /* Assets.xcassets */; };
-		DA4017A4291C8F3A00DF4941 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA4017A2291C8F3A00DF4941 /* LaunchScreen.storyboard */; };
+		DA4017AF291CA9AF00DF4941 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA401797291C8F3900DF4941 /* AppDelegate.swift */; };
+		DA48EC48291DE776003CEE7E /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA48EC47291DE776003CEE7E /* UIColor+Ext.swift */; };
+		DA48EC4A291DEA09003CEE7E /* UILabel+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA48EC49291DEA09003CEE7E /* UILabel+Ext.swift */; };
+		DA5A075E292B453C009794CB /* HomeAppBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5A075D292B453C009794CB /* HomeAppBarView.swift */; };
+		DA5A0761292C42BE009794CB /* TestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5A0760292C42BE009794CB /* TestController.swift */; };
+		DA5A0763292C63F5009794CB /* CarouselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5A0762292C63F5009794CB /* CarouselCell.swift */; };
+		DA5A0765292C64BE009794CB /* CaroselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5A0764292C64BE009794CB /* CaroselView.swift */; };
+		DA5A0769292C8DB1009794CB /* UIDevice+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5A0768292C8DB1009794CB /* UIDevice+Ext.swift */; };
+		DA69BB4F2925E21400B62110 /* CustomDialogTwoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA69BB4E2925E21400B62110 /* CustomDialogTwoButton.swift */; };
+		DA80707B29289E9400AC521D /* ScrollTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80707A29289E9400AC521D /* ScrollTestViewController.swift */; };
+		DA8C0DEB292ED5AB00868E6D /* MyPageHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8C0DEA292ED5AB00868E6D /* MyPageHeaderCell.swift */; };
+		DA8C0DEF292F074A00868E6D /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8C0DEE292F074A00868E6D /* CustomNavigationController.swift */; };
+		DA9812682924C10700F1A344 /* OnboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9812672924C10700F1A344 /* OnboardViewController.swift */; };
+		DA98126A2924C11300F1A344 /* OnboardView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9812692924C11300F1A344 /* OnboardView1.swift */; };
+		DA98126C2924C11C00F1A344 /* OnboardView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA98126B2924C11C00F1A344 /* OnboardView2.swift */; };
+		DA98126F2924C12D00F1A344 /* OnboardView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA98126E2924C12D00F1A344 /* OnboardView3.swift */; };
+		DA9812722924F79D00F1A344 /* AdvancedPageControl in Frameworks */ = {isa = PBXBuildFile; productRef = DA9812712924F79D00F1A344 /* AdvancedPageControl */; };
+		DAA6C4BB29357EC500F6D221 /* DoctorCardSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6C4BA29357EC500F6D221 /* DoctorCardSelect.swift */; };
+		DAB00B0D29417D80000E9D2B /* TouchHandlingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB00B0C29417D80000E9D2B /* TouchHandlingView.swift */; };
+		DAB00B102941864A000E9D2B /* DoctorDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB00B0F2941864A000E9D2B /* DoctorDetailView.swift */; };
+		DAB00B122941926D000E9D2B /* DoctorDetailSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB00B112941926D000E9D2B /* DoctorDetailSegment.swift */; };
+		DAB00B14294192EE000E9D2B /* DoctorDetail1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB00B13294192EE000E9D2B /* DoctorDetail1.swift */; };
+		DAB00B16294192F6000E9D2B /* DoctorDetail2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB00B15294192F6000E9D2B /* DoctorDetail2.swift */; };
+		DAB00B18294197D0000E9D2B /* SegmentedButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB00B17294197D0000E9D2B /* SegmentedButtonsView.swift */; };
+		DAB0BAF12925A6C400140509 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB0BAF02925A6C400140509 /* CustomTextField.swift */; };
+		DACDA3D429244834007BDF41 /* BonMot in Frameworks */ = {isa = PBXBuildFile; productRef = DACDA3D329244834007BDF41 /* BonMot */; };
+		DACDA3D6292448BF007BDF41 /* UIFont+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACDA3D5292448BF007BDF41 /* UIFont+Ext.swift */; };
+		DACDA3D929244A8B007BDF41 /* Font+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACDA3D829244A8B007BDF41 /* Font+Style.swift */; };
+		DAEB58F6293460A70025DC32 /* DoctorSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB58F5293460A70025DC32 /* DoctorSelectViewController.swift */; };
+		DAEB58F82934610C0025DC32 /* Select1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB58F72934610C0025DC32 /* Select1ViewController.swift */; };
+		DAEB58FA293461180025DC32 /* Select2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB58F9293461180025DC32 /* Select2ViewController.swift */; };
+		DAEB58FC29346BB20025DC32 /* Select3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB58FB29346BB20025DC32 /* Select3ViewController.swift */; };
+		DAEB58FE29346E2B0025DC32 /* Select4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB58FD29346E2B0025DC32 /* Select4ViewController.swift */; };
+		DAEC5C8D291D36270061A208 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DAEC5C8C291D36270061A208 /* SnapKit */; };
+		DAEC5C93291D3D450061A208 /* NanumBarunGothicBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DAEC5C8F291D3D450061A208 /* NanumBarunGothicBold.otf */; };
+		DAEC5C94291D3D450061A208 /* NanumBarunGothicUltraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = DAEC5C90291D3D450061A208 /* NanumBarunGothicUltraLight.otf */; };
+		DAEC5C95291D3D450061A208 /* NanumBarunGothicLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = DAEC5C91291D3D450061A208 /* NanumBarunGothicLight.otf */; };
+		DAEC5C96291D3D450061A208 /* NanumBarunGothic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DAEC5C92291D3D450061A208 /* NanumBarunGothic.otf */; };
+		DAEC5CA0291D3E6F0061A208 /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = DAEC5C97291D3E6F0061A208 /* Pretendard-Light.otf */; };
+		DAEC5CA1291D3E6F0061A208 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DAEC5C98291D3E6F0061A208 /* Pretendard-ExtraBold.otf */; };
+		DAEC5CA2291D3E6F0061A208 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = DAEC5C99291D3E6F0061A208 /* Pretendard-Medium.otf */; };
+		DAEC5CA3291D3E6F0061A208 /* Pretendard-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = DAEC5C9A291D3E6F0061A208 /* Pretendard-ExtraLight.otf */; };
+		DAEC5CA4291D3E6F0061A208 /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DAEC5C9B291D3E6F0061A208 /* Pretendard-Regular.otf */; };
+		DAEC5CA5291D3E6F0061A208 /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = DAEC5C9C291D3E6F0061A208 /* Pretendard-Black.otf */; };
+		DAEC5CA6291D3E6F0061A208 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DAEC5C9D291D3E6F0061A208 /* Pretendard-SemiBold.otf */; };
+		DAEC5CA7291D3E6F0061A208 /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = DAEC5C9E291D3E6F0061A208 /* Pretendard-Thin.otf */; };
+		DAEC5CA8291D3E6F0061A208 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DAEC5C9F291D3E6F0061A208 /* Pretendard-Bold.otf */; };
+		DAEC5CAB291D426A0061A208 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEC5CAA291D426A0061A208 /* MainTabController.swift */; };
+		DAEC5CAD291D43930061A208 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEC5CAC291D43930061A208 /* HomeController.swift */; };
+		DAEC5CAF291D43B30061A208 /* MedicalListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEC5CAE291D43B30061A208 /* MedicalListController.swift */; };
+		DAEC5CB1291D43D40061A208 /* MyPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEC5CB0291D43D40061A208 /* MyPageController.swift */; };
+		DAEC5CB4291D48FF0061A208 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEC5CB3291D48FF0061A208 /* LoginController.swift */; };
+		DAF655CA29312DC9009FCDDF /* DTPagerController in Frameworks */ = {isa = PBXBuildFile; productRef = DAF655C929312DC9009FCDDF /* DTPagerController */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA0EDD8F29305AEE007E48B8 /* RoomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCell.swift; sourceTree = "<group>"; };
+		DA0EDD9129308587007E48B8 /* UIButton+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Ext.swift"; sourceTree = "<group>"; };
+		DA0EDD9429308BAD007E48B8 /* SelectClassController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectClassController.swift; sourceTree = "<group>"; };
+		DA19110229482D9400CBFFC0 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		DA1B6D8E2923363E00D21930 /* PermissionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionController.swift; sourceTree = "<group>"; };
+		DA242204292D9588001CD3C1 /* DoctorCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorCardCell.swift; sourceTree = "<group>"; };
+		DA242207292E0397001CD3C1 /* MyPageTableHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageTableHeader.swift; sourceTree = "<group>"; };
+		DA3368952941A90B00A62E1D /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		DA3368972941AC8B00A62E1D /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		DA3368992941B38B00A62E1D /* Payment+UIRadio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Payment+UIRadio.swift"; sourceTree = "<group>"; };
+		DA33689B2941B49100A62E1D /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
+		DA33689E29421CCC00A62E1D /* PayCompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayCompleteViewController.swift; sourceTree = "<group>"; };
 		DA401794291C8F3900DF4941 /* iD-One Hospital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iD-One Hospital.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA401797291C8F3900DF4941 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA401799291C8F3900DF4941 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DA40179B291C8F3900DF4941 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DA40179E291C8F3900DF4941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA4017A0291C8F3A00DF4941 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DA4017A3291C8F3A00DF4941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA4017A5291C8F3A00DF4941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA48EC47291DE776003CEE7E /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		DA48EC49291DEA09003CEE7E /* UILabel+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Ext.swift"; sourceTree = "<group>"; };
+		DA5A075D292B453C009794CB /* HomeAppBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAppBarView.swift; sourceTree = "<group>"; };
+		DA5A0760292C42BE009794CB /* TestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestController.swift; sourceTree = "<group>"; };
+		DA5A0762292C63F5009794CB /* CarouselCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCell.swift; sourceTree = "<group>"; };
+		DA5A0764292C64BE009794CB /* CaroselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaroselView.swift; sourceTree = "<group>"; };
+		DA5A0768292C8DB1009794CB /* UIDevice+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Ext.swift"; sourceTree = "<group>"; };
+		DA69BB4E2925E21400B62110 /* CustomDialogTwoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDialogTwoButton.swift; sourceTree = "<group>"; };
+		DA80707A29289E9400AC521D /* ScrollTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTestViewController.swift; sourceTree = "<group>"; };
+		DA8C0DEA292ED5AB00868E6D /* MyPageHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageHeaderCell.swift; sourceTree = "<group>"; };
+		DA8C0DEE292F074A00868E6D /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
+		DA9812672924C10700F1A344 /* OnboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardViewController.swift; sourceTree = "<group>"; };
+		DA9812692924C11300F1A344 /* OnboardView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardView1.swift; sourceTree = "<group>"; };
+		DA98126B2924C11C00F1A344 /* OnboardView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardView2.swift; sourceTree = "<group>"; };
+		DA98126E2924C12D00F1A344 /* OnboardView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardView3.swift; sourceTree = "<group>"; };
+		DAA6C4BA29357EC500F6D221 /* DoctorCardSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorCardSelect.swift; sourceTree = "<group>"; };
+		DAB00B0C29417D80000E9D2B /* TouchHandlingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchHandlingView.swift; sourceTree = "<group>"; };
+		DAB00B0F2941864A000E9D2B /* DoctorDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorDetailView.swift; sourceTree = "<group>"; };
+		DAB00B112941926D000E9D2B /* DoctorDetailSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorDetailSegment.swift; sourceTree = "<group>"; };
+		DAB00B13294192EE000E9D2B /* DoctorDetail1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorDetail1.swift; sourceTree = "<group>"; };
+		DAB00B15294192F6000E9D2B /* DoctorDetail2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorDetail2.swift; sourceTree = "<group>"; };
+		DAB00B17294197D0000E9D2B /* SegmentedButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedButtonsView.swift; sourceTree = "<group>"; };
+		DAB0BAF02925A6C400140509 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		DACDA3D5292448BF007BDF41 /* UIFont+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Ext.swift"; sourceTree = "<group>"; };
+		DACDA3D829244A8B007BDF41 /* Font+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Style.swift"; sourceTree = "<group>"; };
+		DAEB58F5293460A70025DC32 /* DoctorSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorSelectViewController.swift; sourceTree = "<group>"; };
+		DAEB58F72934610C0025DC32 /* Select1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Select1ViewController.swift; sourceTree = "<group>"; };
+		DAEB58F9293461180025DC32 /* Select2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Select2ViewController.swift; sourceTree = "<group>"; };
+		DAEB58FB29346BB20025DC32 /* Select3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Select3ViewController.swift; sourceTree = "<group>"; };
+		DAEB58FD29346E2B0025DC32 /* Select4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Select4ViewController.swift; sourceTree = "<group>"; };
+		DAEC5C8F291D3D450061A208 /* NanumBarunGothicBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumBarunGothicBold.otf; sourceTree = "<group>"; };
+		DAEC5C90291D3D450061A208 /* NanumBarunGothicUltraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumBarunGothicUltraLight.otf; sourceTree = "<group>"; };
+		DAEC5C91291D3D450061A208 /* NanumBarunGothicLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumBarunGothicLight.otf; sourceTree = "<group>"; };
+		DAEC5C92291D3D450061A208 /* NanumBarunGothic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumBarunGothic.otf; sourceTree = "<group>"; };
+		DAEC5C97291D3E6F0061A208 /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.otf"; sourceTree = "<group>"; };
+		DAEC5C98291D3E6F0061A208 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
+		DAEC5C99291D3E6F0061A208 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		DAEC5C9A291D3E6F0061A208 /* Pretendard-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.otf"; sourceTree = "<group>"; };
+		DAEC5C9B291D3E6F0061A208 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		DAEC5C9C291D3E6F0061A208 /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.otf"; sourceTree = "<group>"; };
+		DAEC5C9D291D3E6F0061A208 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		DAEC5C9E291D3E6F0061A208 /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.otf"; sourceTree = "<group>"; };
+		DAEC5C9F291D3E6F0061A208 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		DAEC5CAA291D426A0061A208 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		DAEC5CAC291D43930061A208 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		DAEC5CAE291D43B30061A208 /* MedicalListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalListController.swift; sourceTree = "<group>"; };
+		DAEC5CB0291D43D40061A208 /* MyPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageController.swift; sourceTree = "<group>"; };
+		DAEC5CB3291D48FF0061A208 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginController.swift; path = ../Authentication/LoginController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +152,77 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAEC5C8D291D36270061A208 /* SnapKit in Frameworks */,
+				DACDA3D429244834007BDF41 /* BonMot in Frameworks */,
+				DA1B6D922923369B00D21930 /* Then in Frameworks */,
+				DA9812722924F79D00F1A344 /* AdvancedPageControl in Frameworks */,
+				DAF655CA29312DC9009FCDDF /* DTPagerController in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA0EDD8E29305ADD007E48B8 /* DoctorRoom */ = {
+			isa = PBXGroup;
+			children = (
+				DA0EDD8F29305AEE007E48B8 /* RoomCell.swift */,
+			);
+			path = DoctorRoom;
+			sourceTree = "<group>";
+		};
+		DA0EDD9329308B9D007E48B8 /* ClassSelect */ = {
+			isa = PBXGroup;
+			children = (
+				DA0EDD9429308BAD007E48B8 /* SelectClassController.swift */,
+			);
+			path = ClassSelect;
+			sourceTree = "<group>";
+		};
+		DA1B6D8D2923363100D21930 /* Permission */ = {
+			isa = PBXGroup;
+			children = (
+				DA1B6D8E2923363E00D21930 /* PermissionController.swift */,
+			);
+			path = Permission;
+			sourceTree = "<group>";
+		};
+		DA242203292D9527001CD3C1 /* MedicalList */ = {
+			isa = PBXGroup;
+			children = (
+				DA242204292D9588001CD3C1 /* DoctorCardCell.swift */,
+			);
+			path = MedicalList;
+			sourceTree = "<group>";
+		};
+		DA242206292E0386001CD3C1 /* MyPage */ = {
+			isa = PBXGroup;
+			children = (
+				DA242207292E0397001CD3C1 /* MyPageTableHeader.swift */,
+				DA8C0DEA292ED5AB00868E6D /* MyPageHeaderCell.swift */,
+			);
+			path = MyPage;
+			sourceTree = "<group>";
+		};
+		DA3368942941A8D300A62E1D /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				DA3368972941AC8B00A62E1D /* HeaderView.swift */,
+				DA3368992941B38B00A62E1D /* Payment+UIRadio.swift */,
+				DA33689B2941B49100A62E1D /* RadioButton.swift */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		DA33689D29421CB800A62E1D /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				DA3368952941A90B00A62E1D /* PaymentViewController.swift */,
+				DA33689E29421CCC00A62E1D /* PayCompleteViewController.swift */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
 		DA40178B291C8F3800DF4941 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +242,189 @@
 		DA401796291C8F3900DF4941 /* iD-One Hospital */ = {
 			isa = PBXGroup;
 			children = (
-				DA401797291C8F3900DF4941 /* AppDelegate.swift */,
 				DA401799291C8F3900DF4941 /* SceneDelegate.swift */,
-				DA40179B291C8F3900DF4941 /* ViewController.swift */,
-				DA40179D291C8F3900DF4941 /* Main.storyboard */,
+				DA401797291C8F3900DF4941 /* AppDelegate.swift */,
+				DAEC5CA9291D42270061A208 /* Controller */,
+				DA4017AD291C96D800DF4941 /* View */,
+				DACDA3D729244A79007BDF41 /* Utils */,
+				DA48EC46291DE765003CEE7E /* Extension */,
+				DAEC5C8E291D3D050061A208 /* Font */,
+				DA4017AB291C968A00DF4941 /* Model */,
+				DA4017AC291C969300DF4941 /* ViewModel */,
+				DA4017AE291C96E000DF4941 /* CustomView */,
 				DA4017A0291C8F3A00DF4941 /* Assets.xcassets */,
-				DA4017A2291C8F3A00DF4941 /* LaunchScreen.storyboard */,
 				DA4017A5291C8F3A00DF4941 /* Info.plist */,
 			);
 			path = "iD-One Hospital";
+			sourceTree = "<group>";
+		};
+		DA4017AB291C968A00DF4941 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DA4017AC291C969300DF4941 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DA4017AD291C96D800DF4941 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DA3368942941A8D300A62E1D /* Payment */,
+				DAB00B0E29418627000E9D2B /* DoctorDetail */,
+				DAEB58F4293460970025DC32 /* DoctorSelect */,
+				DA0EDD8E29305ADD007E48B8 /* DoctorRoom */,
+				DA242206292E0386001CD3C1 /* MyPage */,
+				DA242203292D9527001CD3C1 /* MedicalList */,
+				DA5A075C292B452F009794CB /* Home */,
+				DAB0BAEF2925A6A600140509 /* Login */,
+				DA9812732925A4DC00F1A344 /* Onboard */,
+				DAB0BAF02925A6C400140509 /* CustomTextField.swift */,
+				DAB00B0C29417D80000E9D2B /* TouchHandlingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DA4017AE291C96E000DF4941 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				DA69BB4E2925E21400B62110 /* CustomDialogTwoButton.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		DA48EC46291DE765003CEE7E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DA48EC47291DE776003CEE7E /* UIColor+Ext.swift */,
+				DA48EC49291DEA09003CEE7E /* UILabel+Ext.swift */,
+				DACDA3D5292448BF007BDF41 /* UIFont+Ext.swift */,
+				DA5A0768292C8DB1009794CB /* UIDevice+Ext.swift */,
+				DA0EDD9129308587007E48B8 /* UIButton+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		DA5A075C292B452F009794CB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DA5A075D292B453C009794CB /* HomeAppBarView.swift */,
+				DA5A0762292C63F5009794CB /* CarouselCell.swift */,
+				DA5A0764292C64BE009794CB /* CaroselView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DA9812662924C0E300F1A344 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				DA9812672924C10700F1A344 /* OnboardViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		DA9812732925A4DC00F1A344 /* Onboard */ = {
+			isa = PBXGroup;
+			children = (
+				DA9812692924C11300F1A344 /* OnboardView1.swift */,
+				DA98126B2924C11C00F1A344 /* OnboardView2.swift */,
+				DA98126E2924C12D00F1A344 /* OnboardView3.swift */,
+			);
+			path = Onboard;
+			sourceTree = "<group>";
+		};
+		DA9812742925A4F900F1A344 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				DAEC5CB3291D48FF0061A208 /* LoginController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		DAB00B0E29418627000E9D2B /* DoctorDetail */ = {
+			isa = PBXGroup;
+			children = (
+				DAB00B0F2941864A000E9D2B /* DoctorDetailView.swift */,
+				DAB00B112941926D000E9D2B /* DoctorDetailSegment.swift */,
+				DAB00B13294192EE000E9D2B /* DoctorDetail1.swift */,
+				DAB00B15294192F6000E9D2B /* DoctorDetail2.swift */,
+				DAB00B17294197D0000E9D2B /* SegmentedButtonsView.swift */,
+			);
+			path = DoctorDetail;
+			sourceTree = "<group>";
+		};
+		DAB0BAEF2925A6A600140509 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		DACDA3D729244A79007BDF41 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DACDA3D829244A8B007BDF41 /* Font+Style.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DAEB58F4293460970025DC32 /* DoctorSelect */ = {
+			isa = PBXGroup;
+			children = (
+				DAEB58F5293460A70025DC32 /* DoctorSelectViewController.swift */,
+				DAEB58F72934610C0025DC32 /* Select1ViewController.swift */,
+				DAEB58F9293461180025DC32 /* Select2ViewController.swift */,
+				DAEB58FB29346BB20025DC32 /* Select3ViewController.swift */,
+				DAEB58FD29346E2B0025DC32 /* Select4ViewController.swift */,
+				DAA6C4BA29357EC500F6D221 /* DoctorCardSelect.swift */,
+			);
+			path = DoctorSelect;
+			sourceTree = "<group>";
+		};
+		DAEC5C8E291D3D050061A208 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				DAEC5C9C291D3E6F0061A208 /* Pretendard-Black.otf */,
+				DAEC5C9F291D3E6F0061A208 /* Pretendard-Bold.otf */,
+				DAEC5C98291D3E6F0061A208 /* Pretendard-ExtraBold.otf */,
+				DAEC5C9A291D3E6F0061A208 /* Pretendard-ExtraLight.otf */,
+				DAEC5C97291D3E6F0061A208 /* Pretendard-Light.otf */,
+				DAEC5C99291D3E6F0061A208 /* Pretendard-Medium.otf */,
+				DAEC5C9B291D3E6F0061A208 /* Pretendard-Regular.otf */,
+				DAEC5C9D291D3E6F0061A208 /* Pretendard-SemiBold.otf */,
+				DAEC5C9E291D3E6F0061A208 /* Pretendard-Thin.otf */,
+				DAEC5C92291D3D450061A208 /* NanumBarunGothic.otf */,
+				DAEC5C8F291D3D450061A208 /* NanumBarunGothicBold.otf */,
+				DAEC5C91291D3D450061A208 /* NanumBarunGothicLight.otf */,
+				DAEC5C90291D3D450061A208 /* NanumBarunGothicUltraLight.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		DAEC5CA9291D42270061A208 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DA33689D29421CB800A62E1D /* Payment */,
+				DA0EDD9329308B9D007E48B8 /* ClassSelect */,
+				DA9812742925A4F900F1A344 /* Login */,
+				DA9812662924C0E300F1A344 /* Onboarding */,
+				DA1B6D8D2923363100D21930 /* Permission */,
+				DAEC5CAA291D426A0061A208 /* MainTabController.swift */,
+				DAEC5CAC291D43930061A208 /* HomeController.swift */,
+				DAEC5CAE291D43B30061A208 /* MedicalListController.swift */,
+				DAEC5CB0291D43D40061A208 /* MyPageController.swift */,
+				DA40179B291C8F3900DF4941 /* ViewController.swift */,
+				DA19110229482D9400CBFFC0 /* Launch Screen.storyboard */,
+				DA80707A29289E9400AC521D /* ScrollTestViewController.swift */,
+				DA5A0760292C42BE009794CB /* TestController.swift */,
+				DA8C0DEE292F074A00868E6D /* CustomNavigationController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +443,13 @@
 			dependencies = (
 			);
 			name = "iD-One Hospital";
+			packageProductDependencies = (
+				DAEC5C8C291D36270061A208 /* SnapKit */,
+				DA1B6D912923369B00D21930 /* Then */,
+				DACDA3D329244834007BDF41 /* BonMot */,
+				DA9812712924F79D00F1A344 /* AdvancedPageControl */,
+				DAF655C929312DC9009FCDDF /* DTPagerController */,
+			);
 			productName = "iD-One Hospital";
 			productReference = DA401794291C8F3900DF4941 /* iD-One Hospital.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +478,13 @@
 				Base,
 			);
 			mainGroup = DA40178B291C8F3800DF4941;
+			packageReferences = (
+				DAEC5C8B291D36270061A208 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				DA1B6D902923369B00D21930 /* XCRemoteSwiftPackageReference "Then" */,
+				DACDA3D229244834007BDF41 /* XCRemoteSwiftPackageReference "BonMot" */,
+				DA9812702924F79D00F1A344 /* XCRemoteSwiftPackageReference "AdvancedPageControl" */,
+				DAF655C829312DC9009FCDDF /* XCRemoteSwiftPackageReference "DTPagerController" */,
+			);
 			productRefGroup = DA401795291C8F3900DF4941 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +499,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA4017A4291C8F3A00DF4941 /* LaunchScreen.storyboard in Resources */,
+				DAEC5CA3291D3E6F0061A208 /* Pretendard-ExtraLight.otf in Resources */,
 				DA4017A1291C8F3A00DF4941 /* Assets.xcassets in Resources */,
-				DA40179F291C8F3900DF4941 /* Main.storyboard in Resources */,
+				DAEC5C95291D3D450061A208 /* NanumBarunGothicLight.otf in Resources */,
+				DA19110329482D9400CBFFC0 /* Launch Screen.storyboard in Resources */,
+				DAEC5CA6291D3E6F0061A208 /* Pretendard-SemiBold.otf in Resources */,
+				DAEC5CA1291D3E6F0061A208 /* Pretendard-ExtraBold.otf in Resources */,
+				DAEC5CA2291D3E6F0061A208 /* Pretendard-Medium.otf in Resources */,
+				DAEC5C93291D3D450061A208 /* NanumBarunGothicBold.otf in Resources */,
+				DAEC5CA5291D3E6F0061A208 /* Pretendard-Black.otf in Resources */,
+				DAEC5C94291D3D450061A208 /* NanumBarunGothicUltraLight.otf in Resources */,
+				DAEC5CA8291D3E6F0061A208 /* Pretendard-Bold.otf in Resources */,
+				DAEC5CA4291D3E6F0061A208 /* Pretendard-Regular.otf in Resources */,
+				DAEC5CA7291D3E6F0061A208 /* Pretendard-Thin.otf in Resources */,
+				DAEC5C96291D3D450061A208 /* NanumBarunGothic.otf in Resources */,
+				DAEC5CA0291D3E6F0061A208 /* Pretendard-Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +524,59 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DACDA3D6292448BF007BDF41 /* UIFont+Ext.swift in Sources */,
+				DAEB58F6293460A70025DC32 /* DoctorSelectViewController.swift in Sources */,
+				DAEB58F82934610C0025DC32 /* Select1ViewController.swift in Sources */,
+				DA8C0DEB292ED5AB00868E6D /* MyPageHeaderCell.swift in Sources */,
+				DA33689A2941B38B00A62E1D /* Payment+UIRadio.swift in Sources */,
+				DA242208292E0397001CD3C1 /* MyPageTableHeader.swift in Sources */,
+				DA5A075E292B453C009794CB /* HomeAppBarView.swift in Sources */,
+				DA242205292D9588001CD3C1 /* DoctorCardCell.swift in Sources */,
+				DA3368962941A90B00A62E1D /* PaymentViewController.swift in Sources */,
+				DAEC5CB1291D43D40061A208 /* MyPageController.swift in Sources */,
+				DAEB58FC29346BB20025DC32 /* Select3ViewController.swift in Sources */,
+				DA5A0761292C42BE009794CB /* TestController.swift in Sources */,
+				DA4017AF291CA9AF00DF4941 /* AppDelegate.swift in Sources */,
+				DA8C0DEF292F074A00868E6D /* CustomNavigationController.swift in Sources */,
+				DA33689F29421CCC00A62E1D /* PayCompleteViewController.swift in Sources */,
+				DA98126A2924C11300F1A344 /* OnboardView1.swift in Sources */,
+				DAEC5CAF291D43B30061A208 /* MedicalListController.swift in Sources */,
+				DA5A0769292C8DB1009794CB /* UIDevice+Ext.swift in Sources */,
+				DAB00B18294197D0000E9D2B /* SegmentedButtonsView.swift in Sources */,
 				DA40179C291C8F3900DF4941 /* ViewController.swift in Sources */,
-				DA401798291C8F3900DF4941 /* AppDelegate.swift in Sources */,
+				DA5A0765292C64BE009794CB /* CaroselView.swift in Sources */,
+				DA48EC4A291DEA09003CEE7E /* UILabel+Ext.swift in Sources */,
+				DAB00B102941864A000E9D2B /* DoctorDetailView.swift in Sources */,
+				DA3368982941AC8B00A62E1D /* HeaderView.swift in Sources */,
+				DAB00B14294192EE000E9D2B /* DoctorDetail1.swift in Sources */,
+				DAA6C4BB29357EC500F6D221 /* DoctorCardSelect.swift in Sources */,
+				DA80707B29289E9400AC521D /* ScrollTestViewController.swift in Sources */,
+				DA0EDD9529308BAD007E48B8 /* SelectClassController.swift in Sources */,
+				DAEC5CAB291D426A0061A208 /* MainTabController.swift in Sources */,
+				DAB00B16294192F6000E9D2B /* DoctorDetail2.swift in Sources */,
+				DAB0BAF12925A6C400140509 /* CustomTextField.swift in Sources */,
+				DA98126F2924C12D00F1A344 /* OnboardView3.swift in Sources */,
+				DA1B6D8F2923363E00D21930 /* PermissionController.swift in Sources */,
+				DA9812682924C10700F1A344 /* OnboardViewController.swift in Sources */,
+				DAB00B122941926D000E9D2B /* DoctorDetailSegment.swift in Sources */,
+				DAEC5CB4291D48FF0061A208 /* LoginController.swift in Sources */,
+				DACDA3D929244A8B007BDF41 /* Font+Style.swift in Sources */,
+				DA48EC48291DE776003CEE7E /* UIColor+Ext.swift in Sources */,
 				DA40179A291C8F3900DF4941 /* SceneDelegate.swift in Sources */,
+				DAEC5CAD291D43930061A208 /* HomeController.swift in Sources */,
+				DA33689C2941B49100A62E1D /* RadioButton.swift in Sources */,
+				DA98126C2924C11C00F1A344 /* OnboardView2.swift in Sources */,
+				DA0EDD9229308587007E48B8 /* UIButton+Ext.swift in Sources */,
+				DAEB58FE29346E2B0025DC32 /* Select4ViewController.swift in Sources */,
+				DAEB58FA293461180025DC32 /* Select2ViewController.swift in Sources */,
+				DA5A0763292C63F5009794CB /* CarouselCell.swift in Sources */,
+				DA0EDD9029305AEE007E48B8 /* RoomCell.swift in Sources */,
+				DAB00B0D29417D80000E9D2B /* TouchHandlingView.swift in Sources */,
+				DA69BB4F2925E21400B62110 /* CustomDialogTwoButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		DA40179D291C8F3900DF4941 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DA40179E291C8F3900DF4941 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DA4017A2291C8F3A00DF4941 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DA4017A3291C8F3A00DF4941 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DA4017A6291C8F3A00DF4941 /* Debug */ = {
@@ -285,26 +698,30 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = FVWPNKUT4H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iD-One Hospital/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = idone_hospital;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "co.kr.Mystudy.iD-One-Hospital";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.kr.iD-One-Hospital";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,26 +730,30 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = FVWPNKUT4H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iD-One Hospital/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = idone_hospital;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "co.kr.Mystudy.iD-One-Hospital";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.kr.iD-One-Hospital";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -358,6 +779,77 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DA1B6D902923369B00D21930 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		DA9812702924F79D00F1A344 /* XCRemoteSwiftPackageReference "AdvancedPageControl" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mohn93/AdvancedPageControl.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+		DACDA3D229244834007BDF41 /* XCRemoteSwiftPackageReference "BonMot" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Rightpoint/BonMot.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		DAEC5C8B291D36270061A208 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		DAF655C829312DC9009FCDDF /* XCRemoteSwiftPackageReference "DTPagerController" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tungvoduc/DTPagerController";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DA1B6D912923369B00D21930 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA1B6D902923369B00D21930 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		DA9812712924F79D00F1A344 /* AdvancedPageControl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA9812702924F79D00F1A344 /* XCRemoteSwiftPackageReference "AdvancedPageControl" */;
+			productName = AdvancedPageControl;
+		};
+		DACDA3D329244834007BDF41 /* BonMot */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DACDA3D229244834007BDF41 /* XCRemoteSwiftPackageReference "BonMot" */;
+			productName = BonMot;
+		};
+		DAEC5C8C291D36270061A208 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAEC5C8B291D36270061A208 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		DAF655C929312DC9009FCDDF /* DTPagerController */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAF655C829312DC9009FCDDF /* XCRemoteSwiftPackageReference "DTPagerController" */;
+			productName = DTPagerController;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DA40178C291C8F3800DF4941 /* Project object */;
 }
